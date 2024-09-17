@@ -3,8 +3,8 @@ import Header from './_components/Header'
 
 export default function Provider({children}) {
   return (
-    <div>
-      <Header></Header>
+    <div className='relative'>
+      <Header/>
       {children}
     </div>
   )
